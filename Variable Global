@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+int a = 0;
+int b = 0;
+int c = 0;
+int d = 0;
+int e = 0;
+int f = 0;
+int m = 0;
+int n = 0;
+int l = 0;
+int hasil_1 = 0;
+int hasil_2 = 0;
+int hasil_3 = 0;
+
+
+int Tambah(int t, int tt){
+	m = 0;
+	m = t + tt;
+	return m;
+}
+
+int Kurang (int k, int kk){
+	n = 0;
+	n = k - kk;
+	return n;
+}
+
+int Kali (int h, int hh){
+	l = 0;
+	l = h * hh;
+	return l;
+}
+
+int main ()
+{
+	cout<<"1. Pertambahan"<<endl<<endl;
+	cout<<"Masukkan Nilai Pertama = ";
+	cin>>a;
+	cout<<"Masukkan Nilai Kedua   = ";
+	cin>>b;
+	hasil_1 = Tambah(a,b);
+	cout<<a<<" + "<<b<<" = "<<hasil_1<<endl<<endl;
+	
+	cout<<"2. Perkurangan"<<endl<<endl;
+	cout<<"Masukkan Nilai Pertama = ";
+	cin>>c;
+	cout<<"Masukkan Nilai Kedua   = ";
+	cin>>d;
+	hasil_2 = Kurang (c,b);
+	cout<<c<<" - "<<d<<" = "<<hasil_2<<endl<<endl;
+	
+	cout<<"3. Perkalian"<<endl<<endl;
+	cout<<"Masukkan Nilai Pertama = ";
+	cin>>e;
+	cout<<"Masukkan Nilai Kedua   = ";
+	cin>>f;
+	hasil_3 = Kali (e,f);
+	cout<<e<<" x "<<f<<" = "<<hasil_3;
+}
