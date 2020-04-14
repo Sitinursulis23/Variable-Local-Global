@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+int Tambah(int t, int tt){
+	int m = 0;
+	m = t + tt;
+	return m;
+}
+
+int Kurang (int k, int kk){
+	int n = 0;
+	n = k - kk;
+	return n;
+}
+
+
+int main ()
+{
+	
+	int a,b,c,d,hasil_1,hasil_2,hasil_3;
+	
+	cout<<"1. Pertambahan"<<endl<<endl;
+	cout<<"Masukkan Nilai Pertama = ";
+	cin>>a;
+	cout<<"Masukkan Nilai Kedua   = ";
+	cin>>b;
+	hasil_1 = Tambah(a,b);
+	cout<<a<<" + "<<b<<" = "<<hasil_1<<endl<<endl;
+	
+	cout<<"2. Perkurangan"<<endl<<endl;
+	cout<<"Masukkan Nilai Pertama = ";
+	cin>>c;
+	cout<<"Masukkan Nilai Kedua   = ";
+	cin>>d;
+	hasil_2 = Kurang (c,b);
+	cout<<c<<" - "<<d<<" = "<<hasil_2<<endl<<endl;
+}
